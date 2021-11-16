@@ -1,0 +1,165 @@
+﻿.jimu-widget-mapInfo {  
+  letter-spacing: 0;
+    font-family: 'Avenir Light', Verdana, Geneva, sans-serif;
+    font-size: .9375rem;
+}
+#lyrInfoBtn
+{
+    display: inline-block;
+    padding: .31rem .9rem;
+    width: auto;
+    font-style: normal;
+    color: #fff;
+    border: 1px solid #0079c1;
+    background-color: #0079c1;
+    box-sizing: border-box;
+    -webkit-transition: all 50ms linear;
+    transition: all 50ms linear;
+    cursor: pointer;
+    white-space: nowrap;
+    font-size: .9375rem;
+    font-weight: 400;
+    margin: .775rem;
+}
+    #lyrInfoBtn:hover
+    {
+        background-color: #005e95;
+    }
+    #lyrInfoBtn:disabled
+    {
+        opacity: 0.5;
+    }
+#WMBtn
+{
+    display: inline-block;
+    padding: .31rem .9rem;
+    width: auto;
+    font-style: normal;
+    color: #fff;
+    border: 1px solid #0079c1;
+    background-color: #0079c1;
+    box-sizing: border-box;
+    -webkit-transition: all 50ms linear;
+    transition: all 50ms linear;
+    cursor: pointer;
+    white-space: nowrap;
+    font-size: .9375rem;
+    font-weight: 400;
+    margin: .775rem;
+}
+#WMBtn:hover
+{
+    background-color: #005e95;
+}
+
+#mapExtentBtn
+{
+    display: inline-block;
+    padding: .31rem .9rem;
+    width: auto;
+    font-style: normal;
+    color: #fff;
+    border: 1px solid #0079c1;
+    background-color: #0079c1;
+    box-sizing: border-box;
+    -webkit-transition: all 50ms linear;
+    transition: all 50ms linear;
+    cursor: pointer;
+    white-space: nowrap;
+    font-size: .9375rem;
+    font-weight: 400;
+    margin: .775rem;
+}
+#mapExtentBtn:hover
+{
+    background-color: #005e95;
+}
+#mapSRBtn
+{
+    display: inline-block;
+    padding: .31rem .9rem;
+    width: auto;
+    font-style: normal;
+    color: #fff;
+    border: 1px solid #0079c1;
+    background-color: #0079c1;
+    box-sizing: border-box;
+    -webkit-transition: all 50ms linear;
+    transition: all 50ms linear;
+    cursor: pointer;
+    white-space: nowrap;
+    font-size: .9375rem;
+    font-weight: 400;
+    margin: .775rem;
+}
+#mapSRBtn:hover
+{
+    background-color: #005e95;
+}
+#SR
+{
+    padding: 2px;
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 300px;
+}
+th, td {
+    padding: 5px;
+    text-align: left;
+}
+ul.tab {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+}
+
+/* Float the list items side by side */
+ul.tab li {float: left;}
+
+/* Style the links inside the list items */
+ul.tab li a {
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+/* Change background color of links on hover */
+ul.tab li a:hover {
+    background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+ul.tab li a:focus, .active {
+    background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+}
+.esriViewPopup .mainSection .attrTable td {
+    padding: 2px;
+    padding-bottom: 5px;
+    border: none;
+}
+.esriViewPopup .mainSection .attrTable td.attrName {
+    color: #888888;
+    padding-right: 5px;
+    border: none;
+}
+.esriViewPopup .mainSection .attrTable {
+    border-collapse: collapse;
+    border: none;
+}

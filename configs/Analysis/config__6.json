@@ -1,0 +1,39 @@
+{
+  "analysisTools": [
+    {
+      "name": "CreateBuffers",
+      "showHelp": true,
+      "showCredits": true,
+      "showChooseExtent": true,
+      "showReadyToUseLayers": true,
+      "allowToExport": false,
+      "returnFeatureCollection": false
+    },
+    {
+      "name": "CreateWatersheds",
+      "showHelp": true,
+      "showCredits": false,
+      "showChooseExtent": true,
+      "showReadyToUseLayers": true,
+      "allowToExport": false,
+      "returnFeatureCollection": false
+    },
+    {
+      "name": "ExtractData",
+      "showHelp": true,
+      "showCredits": true,
+      "showChooseExtent": true,
+      "showReadyToUseLayers": true,
+      "allowToExport": false
+    },
+    {
+      "name": "OverlayLayers",
+      "showHelp": true,
+      "showCredits": true,
+      "showChooseExtent": true,
+      "showReadyToUseLayers": true,
+      "allowToExport": false,
+      "returnFeatureCollection": false
+    }
+  ]
+}

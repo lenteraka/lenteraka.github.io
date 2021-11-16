@@ -1,0 +1,110 @@
+<div>
+    <ul class="tab">
+  <li><a href="javascript:void(0)" class="tablinks" onclick="openTab(event, 'Extent')">Map Extent and SR</a></li>
+  <li><a href="javascript:void(0)" class="tablinks" onclick="openTab(event, 'WebMap')">Web Map Info</a></li>
+  <li><a href="javascript:void(0)" class="tablinks" onclick="openTab(event, 'LayerInfo')">Layer Info</a></li>
+</ul>
+
+    <div id="Extent" class="tabcontent">
+
+    <hr />
+    <p><b>Map Extent </b><br /></p>
+    <hr />
+
+    <div>Click to get the Current Map Extent.
+    <input id="mapExtentBtn" type="button" value="Get Map Extent" data-dojo-attach-event="click:_getMapExtent"></div>
+
+    <br />
+
+    <table class="extentTable">
+        <tr>
+            <th><b>Position</b></th>
+            <th><b>Projection Coordinates</b></th>
+            <th><b>Geographic Cooridinates</b></th>
+        </tr>
+        <tr>
+            <td>XMin:</td>
+            <td id="xmin"></td>
+            <td id ="geoxmin"></td>
+        </tr>
+        <tr>
+            <td>YMin:</td>
+            <td id="ymin"></td>
+            <td id ="geoymin"></td>
+        </tr>
+        <tr>
+            <td>XMax:</td>
+            <td id="xmax"></td>
+            <td id ="geoxmax"></td>
+        </tr>
+        <tr>
+            <td>YMax:</td>
+            <td id="ymax"></td>
+            <td id ="geoymax"></td>
+        </tr>
+    </table>
+
+    <br />
+    <br />
+
+    <hr />
+    <p><b>Spatial Reference</b></p>
+    <hr />
+
+    <div>Click to get the Map's Current Spatial Reference. <br /> The default on web maps is 102100. (WGS 84 Web Mercator) <br />
+
+    <input id="mapSRBtn" type="button" value="Get Map Spatial Reference"  data-dojo-attach-event="click:_getMapSpatialReference" /> </div>
+
+    <br />
+    <p>Spatial Reference:</p>
+    <input type="text" id="SR" value="" readonly />
+        </div>
+
+    <div id="WebMap" class="tabcontent">
+    <hr />
+    <p><b>Web Map Info</b><br /></p>
+    <hr />
+
+    <div>Click to get the current Web Map's Information.
+    <input id="WMBtn" type="button" value="Get WebMap Info" data-dojo-attach-event="click:getWebMapInfo"></div>
+
+    <br />
+    <table class="WMTable">
+        <tr>
+            <th><b>Web Map Property</b></th>
+            <th><b>Value</b></th>
+        </tr>
+        <tr>
+            <td>Title:</td>
+            <td id="title"></td>
+        </tr>
+        <tr>
+            <td>Web Map ID:</td>
+            <td id="id"></td>
+        </tr>
+        <tr>
+            <td>Owner:</td>
+            <td id="owner"></td>
+        </tr>
+        <tr>
+            <td>Sharing:</td>
+            <td id="share"></td>
+        </tr>
+        <tr>
+            <td>Tags:</td>
+            <td id="tags"></td>
+        </tr>
+    </table>
+</div>
+
+<div id="LayerInfo" class="tabcontent">
+    <hr />
+    <p><b>Layer Info</b><br /></p>
+    <hr />
+
+    <div>Click to get the unique ID's of all the layers on the map.
+    <input id="lyrInfoBtn" type="button" value="Get Layer Info" data-dojo-attach-event="click:getLayerInfo"></div>
+    <div class="layerTable" id="layerTable"></div>
+
+</div>
+</div>
